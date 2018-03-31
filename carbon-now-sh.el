@@ -55,9 +55,8 @@
   "Open current region in carbon.now.sh."
   (interactive)
   (browse-url
-   (url-encode-url
-    (s-replace "#" "%23"
-      (concat carbon-now-sh-baseurl "?code=" (carbon-now-sh--region))))))
+   (concat carbon-now-sh-baseurl "?code="
+           (url-hexify-string (carbon-now-sh--region)))))
 
 (provide 'carbon-now-sh)
 ;;; carbon-now-sh.el ends here
