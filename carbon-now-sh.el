@@ -4,6 +4,7 @@
 ;; Author: Vitalii Elenhaupt
 ;; URL: https://github.com/veelenga/carbon-now-sh.el
 ;; Keywords: convenience
+;; Version: 0
 ;; Package-Requires: ((emacs "24.4") (dash "2.12.0"))
 
 ;; This file is not part of GNU Emacs.
@@ -32,6 +33,8 @@
 ;; Select some text and run this interactive function:
 ;;
 ;;     (carbon-now-sh)
+
+;;; Code:
 
 (require 'cl-lib)
 (require 'url-util)
