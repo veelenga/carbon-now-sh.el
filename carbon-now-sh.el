@@ -5,7 +5,7 @@
 ;; URL: https://github.com/veelenga/carbon-now-sh.el
 ;; Keywords: convenience
 ;; Version: 0
-;; Package-Requires: ((emacs "24.4") (dash "2.12.0"))
+;; Package-Requires: ((emacs "24.4"))
 
 ;; This file is not part of GNU Emacs.
 
