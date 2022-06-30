@@ -51,7 +51,7 @@
                                 (beg (and (use-region-p) (region-beginning)))
                                 (end (and (use-region-p) (region-end))))
   "Return code in current region."
-  (buffer-substring-no-properties beg end))
+  (when beg (buffer-substring-no-properties beg end)))
 
 ;;;###autoload
 (defun carbon-now-sh ()
